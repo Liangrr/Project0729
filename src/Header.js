@@ -1,7 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import { Layout, Menu, Breadcrumb } from 'antd';
-const { Header, Content, Footer } = Layout;
+import { Link } from 'react-router-dom';
+import { Layout, Menu } from 'antd';
+const { Header } = Layout;
 const { SubMenu } = Menu;
 
 // 封装的嵌套路由组件
