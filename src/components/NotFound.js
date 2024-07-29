@@ -10,7 +10,6 @@ const NotFound = () => {
           style={{
             fontFamily: 'monospace',
             lineHeight: 1.2,
-            transform: 'scale(1.3, 1)',
             fontWeight: 100,
           }}
         >

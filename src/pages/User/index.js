@@ -1,9 +1,12 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { Outlet, useParams } from 'react-router-dom';
 
 const User = () => {
   let { id } = useParams();
-  return <h2>User ID: {id}</h2>;
+  return <div>
+    <Outlet />
+    User ID: {id}
+  </div>;
 };
 
 export default User;

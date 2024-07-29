@@ -1,10 +1,13 @@
 import React from 'react';
 import { RouterProvider } from 'react-router-dom';
 import router from './router/index';
+import { ConfigProvider } from 'antd';
 
 const App = () => {
   return (
-    <RouterProvider router={router} />
+    <ConfigProvider theme={{ cssVar: true }}>
+      <RouterProvider router={router} />
+    </ConfigProvider>
   )
 };
 
